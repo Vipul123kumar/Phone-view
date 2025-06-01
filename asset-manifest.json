@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Phone-view/static/css/main.b39632e9.css",
+    "main.js": "/Phone-view/static/js/main.3cf7e6c7.js",
+    "index.html": "/Phone-view/index.html",
+    "main.b39632e9.css.map": "/Phone-view/static/css/main.b39632e9.css.map",
+    "main.3cf7e6c7.js.map": "/Phone-view/static/js/main.3cf7e6c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b39632e9.css",
+    "static/js/main.3cf7e6c7.js"
+  ]
+}
