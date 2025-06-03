@@ -1,0 +1,27 @@
+.Footer
+{
+    height: full;
+    weight:full;
+    margin: auto;
+    padding: 90px;
+    text-align: center;
+    background-color: #ebebf1;
+}
+.inc
+{   
+   
+   
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+    background-color: black;
+    color:white;
+}
+.dec
+{   
+   border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+     background-color: rgb(19, 39, 218);
+    color: white;
+}

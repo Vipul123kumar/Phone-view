@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext } from "react";
+import Footer from "./Components/Footer";
+import "./Components/Footer.css";
+import Cart from "./Components/Cart"; 
+import { Itemcontex } from "./contex/Cartcontexr";
 
 function App() {
+const itemstate=useContext(Itemcontex);
+console.log("itemstate",itemstate);
+
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Footer" >
+     
+    <Footer name="MacBook" price={10000} />
+     <Footer name="Pendrive" price={40000}/>
+      <Footer name="Mobile" price={35000}/> 
+     <Cart/>
+     
     </div>
   );
 }
